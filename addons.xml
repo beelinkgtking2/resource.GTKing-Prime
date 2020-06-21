@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="resource.GTKing Prime" name="[B][COLOR dodgerblue]GTKING[/COLOR] [COLOR green]WIZARD[/COLOR][/B]" version="2.1" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
        <extension point="xbmc.addon.repository" name="GTKING">
               <info>https://raw.githubusercontent.com/beelinkgtking2/resource.GTKing-Prime/master/addon.xml</info>
@@ -12,3 +13,4 @@
               <platform>all</platform>
        </extension>
 </addon>
+</addons>
