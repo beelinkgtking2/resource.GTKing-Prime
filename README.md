@@ -1,6 +1,6 @@
-## Nueva repo para tu Kodi                                                                                                    ![img](https://i.imgur.com/c7MQyVN.png)
+## Nueva actualizacion para tu Kodi                                                                                                    ![img](https://i.imgur.com/c7MQyVN.png)
 
-**Repo**<span style="color:blue">**-GTking**</span> con lleva al addons **GTKing WIZARD.**
+**Revison**<span style="color:blue">**-GTking**</span> actualiza al **GTKing WIZARD.**
 
 Creado por el grupo **BEELINK/GT-KING / GTKINGPRO/GT1** de Telegram. 
 
