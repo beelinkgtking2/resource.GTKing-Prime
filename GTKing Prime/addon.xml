@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.repogtking" name="[B][COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR][/B]" version="1.2.3" provider-name="[COLOR green]beelinkgtking2[/COLOR]">
-       <extension point="xbmc.addon.repository" name="GTKING Repo">
-              <info>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml</info>
-              <checksum>https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/addons.xml.md5</checksum>
-              <datadir zip="true">https://raw.githubusercontent.com/beelinkgtking2/Repo-GTKing/master/</datadir>
-       </extension>
-       <extension point="xbmc.addon.metadata">
-              <summary>[COLOR ff1e90ff]GTKING[/COLOR] [COLOR gold]Repo[/COLOR]</summary>
-              <description lang="es">Repositorio de addons [COLOR ff1e90ff]GTKING[/COLOR]</description>
-              <disclaimer>Esta Repo recoge los addon que hay por la Red.</disclaimer>
-              <platform>all</platform>
-       </extension>
+<addon id="resource.GTKing Prime" name="[COLOR dodgerblue]GTKing[/COLOR] [COLOR green]Prime[/COLOR]" version="2.1" provider-name="gtking">
+  <requires>
+    <import addon="xbmc.python" version="2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Comprobador, version Build y Parches de [COLOR dodgerblue]GTKing[/COLOR]</summary>
+    <description lang="en">Comprobador, version Build y Parches de [COLOR dodgerblue]GTKing[/COLOR]</description>
+	<disclaimer lang="en">Nuevo icono de [B][COLOR green]Torrent[/COLOR] MediaExplorer[/B]</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
